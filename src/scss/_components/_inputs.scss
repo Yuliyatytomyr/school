@@ -1,0 +1,37 @@
+
+input:-internal-autofill-selected{
+  background: transparent!important;
+}
+.input-border{
+  background: transparent;
+  border: 1px solid #00baff!important;
+  border-radius: 3px;
+}
+input {
+  //border: none!important;
+  padding: 8px 10px;
+  color: $blue;
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    outline: none
+  }
+}
+.input-border_Bottom{
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+textarea{
+  color: white;
+  border: none;
+}
+.input-rounded {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background: rgba(108, 117, 125, 0.23);
+  &::placeholder {
+    color: #fff;
+  }
+}
+

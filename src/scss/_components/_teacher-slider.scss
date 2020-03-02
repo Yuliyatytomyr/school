@@ -1,0 +1,66 @@
+.swiper-teach {
+  width: 100%  !important;
+  padding-top: 50px !important;
+  padding-bottom: 235px !important;
+}
+.teach-slide, .review-slide{
+  background-position: center !important;
+  background-size: cover !important;
+  width: 300px !important;
+  height: 534px !important;
+}
+.teach-slide{
+  .teach-article{
+    opacity: 0!important;
+  }
+  .hero {
+    & img{
+      width: 300px !important;
+      height: 450px !important;
+    }
+  }
+}
+.review-slide{
+  .hero {
+    & img{
+      width: 300px !important;
+      height: 500px !important;
+    }
+  }
+}
+.swiper-slide-active{
+  .teach-article{
+    opacity: 1!important;
+  }
+}
+.teach-article{
+  background:black;
+  color:white;
+  .about-teacher {
+    position: absolute;
+    width: 600px;
+    right: -150px;
+    top: 490px;
+  }
+  p{
+    position: absolute;
+    top: 530px;
+  }
+  .buttonsSlide-teacher{
+    position: absolute;
+    width: 600px;
+    right: -150px;
+    top: 690px;
+  }
+}
+.name-teacher{
+  font-size: 25px;
+}
+@media (min-width: 768px){
+  .teach-article {
+    p {
+      width: 600px;
+      right: -150px;
+    }
+  }
+}

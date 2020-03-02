@@ -1,0 +1,31 @@
+footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  ul {
+    list-style: none;
+    line-height: 26px;
+    padding: 0;
+    font-size: 14px;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+@media (max-width: 767.98px){
+  footer {
+    .addFootMob{
+      position: absolute;
+      right: 12px;
+      top: 4px;
+      &-rotate{
+        transform: rotate(45deg);
+      }
+    }
+    .openFoot-menuMob{
+      h4{
+        margin: 0;
+      }
+      border-bottom: 1px solid white;
+    }
+  }
+}

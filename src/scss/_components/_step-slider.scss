@@ -1,0 +1,73 @@
+.first-step{
+  background:url(../images/step-earth.png) no-repeat center center,
+  white;
+  background-size:85%;
+  min-height:80vh!important;
+  -webkit-animation: Step 4s linear infinite;
+  -moz-animation: Step 4s linear infinite;
+  animation: Step 4s linear infinite;
+}
+.second-step{
+  background:url(../images/step-earth3.png) no-repeat center center,
+  white;
+  background-size:85%;
+  min-height:80vh!important;
+  -webkit-animation: Step 4s linear infinite;
+  -moz-animation: Step 4s linear infinite;
+  animation: Step 4s linear infinite;
+}
+.third-step{
+  background:url(../images/step-earth2.png) no-repeat center center,
+  white;
+  background-size:85%;
+  min-height:80vh!important;
+  -webkit-animation: Step 4s linear infinite;
+  -moz-animation: Step 4s linear infinite;
+  animation: Step 4s linear infinite;
+}
+.four-step{
+  background:url(../images/step-earth4.png) no-repeat center center,
+  white;
+  background-size:85%;
+  min-height:80vh!important;
+  -webkit-animation: Step 4s linear infinite;
+  -moz-animation: Step 4s linear infinite;
+  animation: Step 4s linear infinite;
+}
+.article-step{
+  text-shadow:  0 0 0 #000, 0 1px 2px #fff;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+.mainArticle-step{
+  margin-top: 10%;
+  color: white;
+  text-shadow: 1px 1px 16px #2e2929, 17px 12px 4px #7968685e;
+}
+.swiper-steps .swiper-button-next{
+  background-image: url(../images/next-page.png) !important;
+  top: 80% !important;
+  right: 10px;
+  left: auto;
+  width: 54px !important;
+  height: 54px !important;
+  background-size: 53px 53px !important;
+}
+#arrow-down { 
+  position: relative; 
+  animation: jump 3s infinite;
+  font-size: 28px;
+  color: white;
+}
+@keyframes jump 
+{ 
+  0% { top: 0; } 
+  50% { top: 15px; }
+  100% { top: 0px; }
+ }
+.next{
+  position: absolute;
+  top: 70vh;
+  right: 0;
+  z-index: 10;
+}

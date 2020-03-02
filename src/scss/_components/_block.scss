@@ -1,0 +1,67 @@
+.tile1 {
+  background: url(../images/market.png) center center;
+  background-size:cover;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 40px;
+  max-height: 300px !important;
+}
+.tile2 {
+  background: url(../images/program.png) center center;
+  background-size:cover;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 40px;
+  max-height: 300px !important;
+}
+.tile3 {
+  background: url(../images/design.png) center center;
+  background-size:cover;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 40px;
+  max-height: 300px !important;
+}
+.block{
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+  &:hover{
+    background:#000000;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: all 1s ease;
+    color: white;
+    .tile-primary {
+      transition: all 1s ease-in-out;
+      transform: translateY(-100px);
+      border-bottom: 2px solid white;
+      width: 100%;
+    }
+    .tile-secondary {
+      transition: all 1s ease;
+      transform: translateY(-100px);
+      ul{
+        margin: 0;
+        padding: 0px 34px;
+      }
+    }
+  }
+}
+.tile-primary {
+  display: block;
+  padding: 60px 0;
+}
+.tile-secondary {
+  transform: translateY(200px);
+  
+  & h2 {
+    text-align: center;
+  }
+
+  & ul {
+    list-style-type: none;
+    padding-left: 80px;
+  }
+}

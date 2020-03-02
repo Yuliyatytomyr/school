@@ -1,0 +1,51 @@
+.modalTeacher{
+  background: linear-gradient(rgba(0, 135, 135, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+  .modal-content{
+    background-color: #2F2F2F;
+    .avatar-teacher{
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      &-one{
+        background: url(../images/teacher-1.jpg);
+        background-size: cover;
+      }
+      &-two{
+        background: url(../images/teacher-two.jpg);
+        background-size: cover;
+      }
+      &-three{
+        background: url(../images/teacher-three.jpg);
+        background-size: cover;
+      }
+      &-four{
+        background: url(../images/teacher-four.jpg);
+        background-size: cover;
+      }
+      &-five{
+        background: url(../images/teacher-five.jpg);
+        background-size: cover;
+      }
+    }
+    hr {
+      margin-top: 5px;
+      margin-bottom: 3px;
+      border: 0;
+      border-top: 1px solid rgb(255, 255, 255);
+    }
+    .close{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: white;
+    }
+    ul {
+      line-height: 35px;
+      color: gray;
+      padding: 0 25px;
+    }
+    .border{
+      border: 1px solid gray !important;
+    }
+  }
+}

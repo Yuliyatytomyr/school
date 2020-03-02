@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@import // all common styles
+        "_common/colors",
+        "_common/classes",
+        "_common/sizes",
+        "_common/media",
+        "_common/rfs",
+        "_common/arrow",
+
+        // all components
+        "_components/button",
+        "_components/inputs",
+        "_components/course-slider",
+        "_components/teacher-slider",
+        "_components/step-slider",
+        "_components/block",
+        "_components/navigation",
+        "_components/navDesk",
+        "_components/earth",
+        "_components/sectionRotate",
+        "_components/modals",
+
+        //styles for sections
+        "_sections/footer",
+        "_sections/clickCircles",
+
+        //responsive
+        "_responsive/responsive",
+
+        //styles for pages
+        "_pages/about-school",
+        "_pages/courses",
+        "_pages/teachers",
+        "_pages/contacts",
+        "_pages/partners",
+        "_pages/pagesCourse",
+        "_pages/main-header";
+
+:active, :hover, :focus {
+    outline: 0!important;
+    outline-offset: 0!important;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background:black;
+  color: white;
+  overflow: hidden;
+  user-select: none!important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+/* Track */   
+::-webkit-scrollbar-track {
+    background: #416fdc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #416fdc;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+    box-shadow: 0 0 5px 0 #ffa929;
+}
+/*section-styles*/
+.text-background{
+  position: absolute;
+  font-size: 210px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#998c8c17;
+}
+.big-article{
+  font-size: 2rem;
+  color:white;
+}
+.radius-work{
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+}
+.swiper-students{
+  position: static !important;
+}
+.swiper-students .swiper-button-next {
+  background-size: 18px 44px !important;
+  margin: -20px -28px!important;
+}
+.swiper-students .swiper-button-prev {
+  background-size: 18px 44px !important;
+  margin: -20px -28px!important;
+}
+.article-list{
+  text-align: left;
+}
+.orange-big{
+  font-size: 3rem;
+  color: orange;
+}
+.text-big{
+  font-size: 2.5rem;
+}
+.block-w{
+  width: 83%;
+}
+ul{
+  list-style-image:url(../images/done.png);
+  line-height: 35px;
+}
+.icon-block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.icon-block{
+  & i{
+    color: #03a9f4;
+    margin: 0 15px;
+  }
+  & i:hover,.footer-block_navigation a:hover{
+    color: #ffa929;
+    transition: 0.2s;
+  }
+}
+.icon-block i:first-child {
+  margin-left: 0;
+}
+.m-1 {
+  margin: 1.5rem 0;
+}
+.cl-b {
+  color: #0072ff;
+}
+h6 {
+  margin-bottom: 2px;
+  font-size: 10px;
+  color: #f7ad1d;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+h4 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+#hamburger-open {
+  cursor: pointer !important;
+}

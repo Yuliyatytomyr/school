@@ -1,0 +1,130 @@
+.earth{
+  position: absolute;
+  width: 65%;
+  right: -400px;
+  top: -270px;
+  transition: all 0.5s ease;
+  animation: rotate 80s linear infinite;
+ }
+.stars{
+  position: absolute;
+  width: 65%;
+  right: -400px;
+  top: -100px;
+  transition: all 0.5s ease;
+  animation: rotate 30s linear infinite;
+}
+.earthPage{
+  position: absolute;
+  width: 65%;
+  right: -500px;
+  top: 47px;
+  transition: all 0.5s ease;
+  animation: rotate 80s linear infinite;
+  opacity: 0.3;
+  &-left{
+    position: absolute;
+    width: 55%;
+    left: -450px;
+    top: 314px;
+  }
+  &-courses{
+    right: -400px;
+    top: -200px;
+    opacity: 0.6;
+  }
+}
+.starsPage {
+  position: absolute;
+  width: 65%;
+  right: -415px;
+  top: 144px;
+  transition: all 0.5s ease;
+  animation: rotate 30s linear infinite;
+  opacity: 0.3;
+  &-left{
+    position: absolute;
+    width: 55%;
+    left: -450px;
+    top: 314px;
+  }
+  &-courses{
+    top: -150px;
+    right: -350px;
+    opacity: 0.7;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 767.98px) {
+  .earth{
+    position: absolute;
+    width: 75%;
+    right: -97px;
+    top: -175px;
+  }
+  .earthPage{
+    position: absolute;
+    width: 90%;
+    right: -150px;
+    top: 47px;
+    transition: all 0.5s ease;
+    animation: rotate 80s linear infinite;
+    opacity: 0.3;
+    &-courses{
+      right: -150px;
+      top: 0px;
+      opacity: 0.6;
+    }
+  }
+  .starsPage {
+    position: absolute;
+    width: 90%;
+    right: -415px;
+    top: 144px;
+    transition: all 0.5s ease;
+    animation: rotate 30s linear infinite;
+    opacity: 0.3;
+    &-courses{
+      top: 23px;
+      right: -150px;
+      opacity: 0.7;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .earthPage{
+    position: absolute;
+    width: 90%;
+    right: -150px;
+    top: 47px;
+    transition: all 0.5s ease;
+    animation: rotate 80s linear infinite;
+    opacity: 0.3;
+    &-courses{
+      width: 70%;
+      right: -280px;
+      top: 0px;
+      opacity: 0.6;
+    }
+  }
+  .starsPage {
+    position: absolute;
+    width: 90%;
+    right: -415px;
+    top: 144px;
+    transition: all 0.5s ease;
+    animation: rotate 30s linear infinite;
+    opacity: 0.3;
+    &-courses{
+      width: 70%;
+      right: -280px;
+      top: 23px;
+      opacity: 0.7;
+    }
+  }
+}

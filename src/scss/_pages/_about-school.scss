@@ -1,0 +1,82 @@
+header{
+  .nav{
+    .nav-link{
+      font-size:14px;
+    }
+  }
+  .main-content{
+    h1{
+      font-size: 42px;
+      line-height: 49px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+  }
+  .main-articlePages{
+    margin:200px 0px 50px;
+  }
+  .numbers-header{
+    font-size:42px;
+  }
+  .HeaderArticle-numbers{
+    padding-bottom:250px;
+  }
+}
+.header-pages{
+   background: url('../images/bg-aboutS.png');
+   background-size: cover;
+   position: relative;
+ }
+.tableWhy-us{
+  background: radial-gradient(35.19% 25.19% at 97.56% 50.03%,#7e7e7ead 0,rgba(0,0,0,0) 100%),radial-gradient(49.41% 42.05% at 10.28% 50.03%,#051608 0,rgba(0,0,0,0) 100%),radial-gradient(36.92% 21.03% at 50% 0,#0f371c 0,rgba(0,0,0,0) 100%),#000;
+  .radius {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: white;
+  }
+}
+.about-school{
+  font-size: 18px;
+}
+.articleWhy-us{
+  font-size: 20px;
+}
+@media (min-width: 768px){
+  .tableWhy-us {
+    .radius {
+      &-first {
+        &:after {
+          background-image: url(../images/line-about.png);
+          width: 2px;
+          height: 200px;
+          content: "";
+          position: absolute;
+          bottom: -150px;
+        }
+      }
+
+      &-second {
+        &:after {
+          background-image: url(../images/line-about.png);
+          width: 2px;
+          height: 200px;
+          content: "";
+          position: absolute;
+          bottom: -150px;
+        }
+      }
+
+      &-third {
+        &:after {
+          background-image: url(../images/line-about.png);
+          width: 2px;
+          height: 200px;
+          content: "";
+          position: absolute;
+          bottom: -150px;
+        }
+      }
+    }
+  }
+}

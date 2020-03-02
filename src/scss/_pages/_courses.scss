@@ -1,0 +1,164 @@
+.header-pageCourse{
+  background: linear-gradient(180deg, #002D4E 0%, rgba(0, 0, 0, 0) 100%);
+  background-size: cover;
+  position: relative;
+  .main-articlePages{
+    padding-bottom: 100px;
+  }
+}
+.cardsCourses{
+  width: 100%;
+}
+.card-course{
+  background: #2a2929;
+  border-radius: 10px;
+  .linkCard-course{
+    text-decoration: none!important;
+  }
+  .article-course{
+    word-wrap: break-word;
+  }
+  .img-size {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+    &.marketing-one{
+      background: url(../images/onlineMarketing-bg.png) center;
+      background-size: cover;
+    }
+    &.programmer-one{
+      background: url(../images/bg-frontend.jpg) center;
+      background-size: cover;
+    }
+    &.programmer-two{
+      background: url(../images/react-bg.png) center;
+      background-size: cover;
+    }
+    &.programmer-three{
+      background: url(../images/php-bg.png) center;
+      background-size: cover;
+    }
+    &.kidz-one{
+      background: url(../images/game.png) center;
+      background-size: cover;
+    }
+    &.kidz-two{
+      background: url(../images/kidz-programming.jpg) center;
+      background-size: cover;
+    }
+    &.kidz-three{
+      background: url(../images/youtube-blog.jpg) center;
+      background-size: cover;
+    }
+    &.free-one{
+      background: url(../images/free-course.jpg) center;
+      background-size: cover;
+    }
+  }
+  .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background: #00F0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  .summary-places{
+    border-bottom: 1px solid #ffffff75;
+    border-top: 1px solid #ffffff75;
+    padding: 15px 20px 15px 0px;
+  }
+  .radius-course{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    top: 126px;
+    left: 350px;
+    background: linear-gradient(149.35deg, #00B2FF 9.3%, #EB00FF 100.93%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    transition: all 0.5s ease;
+    animation: rotate 15s linear infinite;
+  }
+  .radiusDotted-course{
+    width: 110px;
+    height: 110px;
+    border-radius: 65px;
+    position: absolute;
+    top: 96px;
+    left: 320px;
+    background: 0 0;
+    border: 2px dotted #ffffff75;
+    z-index: 1;
+    transition: all 0.5s ease;
+    animation: rotate 30s linear infinite;
+    &_dashed{
+      top: 111px;
+      left: 335px;
+      width: 80px;
+      height: 80px;
+      transition: all 0.1s ease;
+      border: 2px dashed #ffffff75;
+    }
+  }
+}
+.aim{
+  cursor: pointer;
+  text-decoration: none;
+  box-decoration-break: slice;
+  line-height: 1.5;
+  background-image: linear-gradient( transparent calc( 100% - 2px ), #00C9FA 2px );
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 100%;
+  transition: background-size 0.55s ease-in-out;
+  &:hover{
+    color: #00C9FA!important;
+    background-size: 100% 100%;
+  }
+}
+.link-blue{
+  color: #00C9FA!important;
+  text-decoration: none;
+  box-decoration-break: slice;
+  line-height: 1.5;
+  background-image: linear-gradient( transparent calc( 100% - 2px ), #00C9FA 2px );
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  transition: background-size 0.55s ease-in-out;
+}
+
+@media (max-width: 991.98px){
+  .img-size{
+    opacity: 0.1;
+    min-height: 300px!important;
+  }
+  .mainArticle-course{
+    position: absolute;
+    top: -240px;
+    z-index: 10;
+  }
+  .bt-Course{
+    border-top: 2px solid black;
+  }
+  .bl-Course_black{
+    border-left: 2px solid black;
+  }
+  .aim{
+    line-height: 70px;
+  }
+}
+@media (min-width: 992px) {
+  .content-course{
+    padding: 15px 5px 0 58px;
+  }
+  .bl-Course{
+    border-left: 1px solid #ffffff75;
+  }
+}

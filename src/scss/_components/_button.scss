@@ -1,0 +1,104 @@
+/* always add btn class */
+.btn-static{
+	width: 150px;
+	height: 44px;
+	left: 277px;
+	top: 4122px;
+	background: linear-gradient(99.19deg, #00F0FF 8.19%, #00A3FF 98.97%);
+	border: none;
+	border-radius: 52px;
+	cursor: pointer;
+	text-decoration: none!important;
+	&-border{
+		background: transparent;
+		border: 1px solid #00F0FF
+	}
+	&-org{
+		background: linear-gradient(90deg, #FFB800 3.03%, #FF5C00 100%);
+	}
+	&-pink{
+		background: linear-gradient(92.36deg, #FF00B8 0.27%, #0075FF 99.38%);
+	}
+	&:hover{
+		transform: scale(1.1);
+		transition: 1.5s;
+	}
+}
+.btn {
+	display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    z-index: 1;
+    color: #fff;
+    background: none;
+    border: none;
+	
+	&-b{
+		color: black;
+	}
+	// events
+	&:hover,
+	&:focus,
+	&:active,
+	&:visited {
+		text-decoration: none;
+		outline: none;
+	}
+	&:before{
+		content: "";
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    background: #ffa929;
+	    width: 50%;
+	    z-index: -1;
+		border-radius: 5px;
+	    transition: all 0.5s ease;
+	}
+	&:hover:before {
+		width: 100%;
+	}
+
+	// sizes
+	&.sm {
+		padding: 3px 15px;
+	}
+	&.md {
+		padding: 6px 18px;
+	}
+	&.lg {
+		padding: 9px 21px;
+	}
+
+	&-link {
+		color: $blue;
+		font-weight: bold;
+		&:hover {
+			color: $blue;
+		}
+	}
+}
+
+a {
+	color: #fff;
+	&:hover {
+		color: #fff;
+
+	}
+}
+@media (max-width: 767.98px){
+	.btn-static {
+		width: 140px;
+		height: 40px;
+		font-size: 14px;
+	}
+}

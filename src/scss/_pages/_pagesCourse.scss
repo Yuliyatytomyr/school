@@ -1,0 +1,87 @@
+.header-frontend{
+  background: url('../images/bg-frontend.jpg') center center;
+  background-size: cover;
+  position: relative;
+}
+.header-programming-kidz{
+  background: url('../images/kidz-programming.jpg') center center;
+  background-size: cover;
+  position: relative;
+}
+.header-game{
+  background: url('../images/game.png') center center;
+  background-size: cover;
+  position: relative;
+}
+.header-onlineMarketing{
+  background: url('../images/onlineMarketing-bg.png') center center;
+  background-size: cover;
+  position: relative;
+}
+.header-react{
+  background: url('../images/react-bg.png') center center;
+  background-size: cover;
+  position: relative;
+}
+.header-php{
+  background: url('../images/php-bg.png') center center;
+  background-size: cover;
+  position: relative;
+}
+.header-blogger{
+  background: url('../images/youtube-blog.jpg') center center;
+  background-size: cover;
+  position: relative;
+}
+.icon-header{
+  width: 75px;
+}
+.block-twoCourse_front{
+  background: radial-gradient(56.32% 37.29% at 11.98% 51.91%,#3c0c0c 0,rgba(0,0,0,0) 100%),radial-gradient(28.15% 34.77% at 50% 8.24%,#16314a 0,rgba(0,0,0,0) 100%),#181818;
+}
+.programmBlock{
+  ul{
+    list-style: none;
+    &:before{
+      background-image: url(../images/line-programm.png);
+      width: 2px;
+      height: 100%;
+      top: 10px;
+      left: -25px;
+      content: "";
+      position: absolute;
+    }
+  }
+  .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+    left: -89px;
+    top: 8px;
+  }
+}
+.sectionBg_white{
+  background: white;
+}
+.secTop_margin{
+  margin-top: 85px;
+}
+.total_price{
+  font-size: 55px !important;
+  color: #FF0000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+@media (max-width: 767.98px){
+  ul{
+    list-style: none;
+    &:before{
+      left: 22px !important;
+    }
+  }
+  .programmBlock .circle {
+    left: -41px;
+  }
+}

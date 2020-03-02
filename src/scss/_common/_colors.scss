@@ -1,0 +1,27 @@
+$blue:#0072ff;
+$orange:#ffa929;
+$grey-light:#9c9c9c;
+$black:#000000;
+
+.article-blue{
+	color:$blue;
+}
+.article-big-blue{
+	background: linear-gradient(-45deg,#8BC34A,#FFC107,#00BCD4,#0081ff);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	background-size: 400% 400%;
+	animation: Gradient 5s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}

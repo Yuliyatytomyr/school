@@ -1,0 +1,58 @@
+.courses-slide{
+  background: white;
+  background: #ffffff;
+  min-height: 50vh;
+  box-shadow: 0 0 10px rgba(166, 166, 166, 0.5);
+}
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0px 100px !important;
+}
+.courses-pagination {
+  position:static !important;
+  padding-top: 7% !important;
+  white-space: nowrap;
+  justify-content: space-between;
+}
+.swiper-pagination-bullet{
+  &:nth-child(1):before{
+  content:'ПРОГРАММИРОВАНИЕ';
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  }
+  &:nth-child(2):before{
+  content:'ДЛЯ ДЕТЕЙ';
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  }
+  &:nth-child(3):before{
+  content:'МАРКЕТИНГ';
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  }
+}
+
+.swiper-courses{
+  margin-top: 10% !important;
+}
+
+.swiper-pagination-bullet-active:before{
+  color:blue;
+  font-weight: bold;
+}
+
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet{
+  background: #007aff00 !important;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  right: -21px!important;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: -21px!important;
+}

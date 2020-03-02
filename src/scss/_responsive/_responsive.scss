@@ -1,0 +1,42 @@
+@media (max-width: 767.98px){
+  header .main-articlePages {
+    margin: 120px 0 50px !important;
+  }
+  .HeaderArticle-numbers{
+    flex-direction: column;
+  }
+  .blockOrder-first{
+    order: 1;
+  }
+  .blockOrder-second{
+    order: 2;
+  }
+  .text-background{
+    font-size: 60px !important;
+  }
+  .header-article{
+    padding-bottom: 100px!important;
+  }
+  .order{
+    &-one{
+      order: 1;
+    }
+    &-two{
+      order: 2;
+    }
+  }
+}
+@media (max-width: 991.98px){
+  .logo-mainHeader{
+    width: 125px!important;
+    padding: 7px 0px;
+  }
+  .arrow {
+    top: 240px!important;
+    left: 80px!important;
+  }
+  .arrow.arrow-right{
+    top: 164px!important;
+    left: 80px!important;
+  }
+}
